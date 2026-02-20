@@ -1,0 +1,4 @@
+const data = ここにデータ ;
+Object.keys(data).forEach(k => localStorage.setItem(k, data[k]));
+alert("設定の復元が完了しました！");
+location.reload();
